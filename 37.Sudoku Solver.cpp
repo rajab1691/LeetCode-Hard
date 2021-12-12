@@ -3,7 +3,7 @@
   2.if col ends then go to next row
   3.if last row then return true
   
-  T.C-O(n^2)
+  T.C-O(9^(n*n))
 */
 
 bool isValid(vector<vector<char>>& board,int i,int j,char c){
